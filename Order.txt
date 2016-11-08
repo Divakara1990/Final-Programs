@@ -1,0 +1,11 @@
+OrderID:12345 
+Item1;3;10:43 
+Item2;1;7:20 
+Item3;1;8.99 
+OrderID:34567 
+Item1;1;4:50 
+Item2;2;9.99 
+OrderID:22873 
+Item1;1;10.0 
+OrderID:39087 
+Item1;2;19.90 

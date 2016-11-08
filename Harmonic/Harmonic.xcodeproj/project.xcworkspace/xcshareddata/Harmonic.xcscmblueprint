@@ -1,0 +1,39 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "32D3817C8041B2BF12CDB08257A260ADE9FD10FE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "32D3817C8041B2BF12CDB08257A260ADE9FD10FE" : 0,
+    "AB0CBAC2336D6EC4E6CB23F152F86577FFF34EF3" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "35DA2DB6-74BE-4409-9D66-7047612C3C76",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+<<<<<<< HEAD
+    "32D3817C8041B2BF12CDB08257A260ADE9FD10FE" : "",
+    "AB0CBAC2336D6EC4E6CB23F152F86577FFF34EF3" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Harmonic",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Harmonic\/Harmonic.xcodeproj",
+=======
+    "32D3817C8041B2BF12CDB08257A260ADE9FD10FE" : "div\/",
+    "AB0CBAC2336D6EC4E6CB23F152F86577FFF34EF3" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Harmonic",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Programming-Project\/Harmonic\/Harmonic.xcodeproj",
+>>>>>>> 099fb8ce5f312cfb8762df94b454bbdebf4b4aeb
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Divakara1990\/Programming-Projects.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "32D3817C8041B2BF12CDB08257A260ADE9FD10FE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Divakara1990\/Objective-C.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AB0CBAC2336D6EC4E6CB23F152F86577FFF34EF3"
+    }
+  ]
+}

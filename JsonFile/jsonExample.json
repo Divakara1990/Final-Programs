@@ -1,0 +1,20 @@
+{
+    "rice" :
+    {
+        "name" : "Bullet Rice",
+        "weight" : "25Kg",
+        "price" : "80rs"
+    },
+    "pulses" :
+    {
+        "name" : "swasthik",
+        "weight" : "5Kg",
+        "price" : "200rs"
+    },
+    "wheat" :
+    {
+        "name" : "sriram",
+        "weight" : "10Kg",
+        "price" : "40rs"
+    }
+}

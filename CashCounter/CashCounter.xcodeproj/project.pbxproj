@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A5EF0551DC1DFC700D766E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5EF0541DC1DFC700D766E3 /* main.m */; };
+		0A5EF05D1DC1DFEC00D766E3 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5EF05C1DC1DFEC00D766E3 /* Node.m */; };
+		0A5EF0601DC1DFF900D766E3 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5EF05F1DC1DFF900D766E3 /* Queue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A5EF04F1DC1DFC700D766E3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A5EF0511DC1DFC700D766E3 /* CashCounter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CashCounter; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A5EF0541DC1DFC700D766E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A5EF05B1DC1DFEC00D766E3 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		0A5EF05C1DC1DFEC00D766E3 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		0A5EF05E1DC1DFF900D766E3 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		0A5EF05F1DC1DFF900D766E3 /* Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A5EF04E1DC1DFC700D766E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A5EF0481DC1DFC700D766E3 = {
+			isa = PBXGroup;
+			children = (
+				0A5EF0531DC1DFC700D766E3 /* CashCounter */,
+				0A5EF0521DC1DFC700D766E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A5EF0521DC1DFC700D766E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A5EF0511DC1DFC700D766E3 /* CashCounter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A5EF0531DC1DFC700D766E3 /* CashCounter */ = {
+			isa = PBXGroup;
+			children = (
+				0A5EF0541DC1DFC700D766E3 /* main.m */,
+				0A5EF05B1DC1DFEC00D766E3 /* Node.h */,
+				0A5EF05C1DC1DFEC00D766E3 /* Node.m */,
+				0A5EF05E1DC1DFF900D766E3 /* Queue.h */,
+				0A5EF05F1DC1DFF900D766E3 /* Queue.m */,
+			);
+			path = CashCounter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A5EF0501DC1DFC700D766E3 /* CashCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A5EF0581DC1DFC700D766E3 /* Build configuration list for PBXNativeTarget "CashCounter" */;
+			buildPhases = (
+				0A5EF04D1DC1DFC700D766E3 /* Sources */,
+				0A5EF04E1DC1DFC700D766E3 /* Frameworks */,
+				0A5EF04F1DC1DFC700D766E3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CashCounter;
+			productName = CashCounter;
+			productReference = 0A5EF0511DC1DFC700D766E3 /* CashCounter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A5EF0491DC1DFC700D766E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = BridgeLabz;
+				TargetAttributes = {
+					0A5EF0501DC1DFC700D766E3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0A5EF04C1DC1DFC700D766E3 /* Build configuration list for PBXProject "CashCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A5EF0481DC1DFC700D766E3;
+			productRefGroup = 0A5EF0521DC1DFC700D766E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A5EF0501DC1DFC700D766E3 /* CashCounter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A5EF04D1DC1DFC700D766E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5EF0601DC1DFF900D766E3 /* Queue.m in Sources */,
+				0A5EF0551DC1DFC700D766E3 /* main.m in Sources */,
+				0A5EF05D1DC1DFEC00D766E3 /* Node.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0A5EF0561DC1DFC700D766E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0A5EF0571DC1DFC700D766E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0A5EF0591DC1DFC700D766E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A5EF05A1DC1DFC700D766E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A5EF04C1DC1DFC700D766E3 /* Build configuration list for PBXProject "CashCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A5EF0561DC1DFC700D766E3 /* Debug */,
+				0A5EF0571DC1DFC700D766E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A5EF0581DC1DFC700D766E3 /* Build configuration list for PBXNativeTarget "CashCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A5EF0591DC1DFC700D766E3 /* Debug */,
+				0A5EF05A1DC1DFC700D766E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A5EF0491DC1DFC700D766E3 /* Project object */;
+}
